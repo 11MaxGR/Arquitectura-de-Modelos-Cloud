@@ -3,12 +3,11 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
-    line-height: 1.6;
 }
 
 /* Estilo del header */
 header {
-    background-color: #0078D7;
+    background-color: #0078D7; /* Azul */
     color: white;
     display: flex;
     justify-content: space-between;
@@ -39,14 +38,13 @@ header nav a:hover {
     background-color: #005A9E;
 }
 
-/* Contenido principal */
+/* Contenedor principal */
 main {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: calc(100vh - 60px); /* Altura total menos el header */
+    height: calc(100vh - 60px); /* Resta la altura del header */
     padding: 20px;
-    background-color: #f4f4f4;
 }
 
 /* Contenedor del formulario */
