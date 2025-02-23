@@ -8,7 +8,7 @@ body {
 
 /* Estilo del header */
 header {
-    background-color: #0078D7; /* Azul */
+    background-color: #0078D7;
     color: white;
     display: flex;
     justify-content: space-between;
@@ -39,7 +39,7 @@ header nav a:hover {
     background-color: #005A9E;
 }
 
-/* Contenedor principal */
+/* Contenido principal */
 main {
     display: flex;
     justify-content: center;
@@ -47,23 +47,6 @@ main {
     min-height: calc(100vh - 60px); /* Altura total menos el header */
     padding: 20px;
     background-color: #f4f4f4;
-}
-
-main h2 {
-    text-align: center;
-    color: #333;
-    margin-bottom: 20px;
-}
-
-main p {
-    margin-bottom: 15px;
-    color: #555;
-    text-align: justify; /* Justifica el texto para una apariencia limpia */
-}
-
-/* Sección introductoria */
-.intro {
-    text-align: left;
 }
 
 /* Contenedor del formulario */
