@@ -27,7 +27,7 @@
     
                 <button type="submit">Iniciar Sesión</button>
             </form>
-            <p id="message"></p> 
+            <p id="message" class="message-centered"></p> 
         </div>
     </main>
 
@@ -35,10 +35,16 @@
         // Manejar el envío del formulario
         document.getElementById('login-form').addEventListener('submit', function(event) {
             event.preventDefault(); // Evitar el envío real del formulario
-            document.getElementById('message').textContent = "Sesión iniciada.";
+            const messageElement = document.getElementById('message');
+            messageElement.textContent = "Sesión iniciada";
             
             // Limpiar los campos del formulario
             event.target.reset();
+
+            // Borrar el mensaje después de 3 segundos
+            setTimeout(() => {
+                messageElement.textContent = "";
+            }, 3000);
         });
     </script>
   </body>
