@@ -1,0 +1,121 @@
+/* Reset básico */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+}
+
+/* Estilo del header */
+header {
+    background-color: #0078D7; /* Azul */
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+header nav {
+    display: flex;
+    gap: 15px;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+header nav a:hover {
+    background-color: #005A9E;
+}
+
+/* SECCIÓN DE INTRODUCCIÓN */
+.intro {
+    text-align: center;
+    background: linear-gradient(to right, #022B3A, #1F7A8C); /* Degradado azul */
+    color: white;
+    padding: 40px 20px;
+    border-radius: 10px;
+    margin: 30px auto;
+    max-width: 80%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para el título principal */
+.intro h2 {
+    font-size: 2.5rem;
+    font-family: 'Arial Black', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+/* Estilos para los párrafos */
+.intro p {
+    font-size: 1.2rem;
+    font-family: 'Verdana', sans-serif;
+    line-height: 1.8;
+    margin: 0 auto;
+    max-width: 90%;
+}
+
+/* SECCIÓN DE CATEGORÍAS */
+.categorias {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.categorias h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Contenedor de las 3 columnas en fila */
+.contenedor-categorias {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap; /* Para que en pantallas pequeñas se acomoden */
+}
+
+/* Estilos de cada categoría */
+.categoria {
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 30%;
+    min-width: 200px;
+    overflow: hidden; /* Evita que la imagen sobresalga */
+}
+
+.categoria h3 {
+    color: #0078D7;
+    margin-bottom: 10px;
+}
+
+/* Imágenes con efecto dinámico */
+.categoria img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Efecto hover: agranda la imagen y agrega sombra */
+.categoria img:hover {
+    transform: scale(1.1); /* Aumenta tamaño */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Agrega sombra */
+}

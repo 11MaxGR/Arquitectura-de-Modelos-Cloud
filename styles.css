@@ -73,7 +73,7 @@ main p {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     text-align: center;
-    width: 300px;
+    width: 350px;
 }
 
 .login-container h2 {
@@ -83,7 +83,7 @@ main p {
 
 .login-container label {
     display: block;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     font-weight: bold;
     color: #555;
     text-align: left;
@@ -118,3 +118,5 @@ main p {
     color: green;
     font-weight: bold;
 }
+
+
