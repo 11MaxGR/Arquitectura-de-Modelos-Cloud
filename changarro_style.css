@@ -67,8 +67,8 @@ main p {
     text-align: left;
 }
 
-/* Contenedor del formulario */
-.login-container {
+/* Contenedor principal de contenido */
+.content {
     background-color: white;
     padding: 20px;
     border-radius: 10px;
@@ -77,42 +77,19 @@ main p {
     width: 300px;
 }
 
-.login-container h2 {
-    margin-bottom: 20px;
-    color: #333;
-}
-
-.login-container label {
-    display: block;
-    margin-bottom: 5px;
-    font-weight: bold;
-    color: #555;
-    text-align: left;
-}
-
-.login-container input {
+.content img {
     width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 1rem;
+    height: auto;
+    border-radius: 8px;
 }
 
-.login-container button {
-    background-color: #0078D7;
-    color: white;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 1rem;
-    transition: background-color 0.3s ease;
+.content p {
+    font-size: 16px;
+    color: #555;
+    margin: 10px 0;
+    text-align: center;
 }
 
-.login-container button:hover {
-    background-color: #005A9E;
-}
 .content button {
     background-color: #1f7a8c; /* Teal for buttons */
     color: #ffffff; /* White text */
