@@ -113,6 +113,22 @@ main p {
 .login-container button:hover {
     background-color: #005A9E;
 }
+.content button {
+    background-color: #1f7a8c; /* Teal for buttons */
+    color: #ffffff; /* White text */
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+    display: block;
+    margin: 10px auto;
+}
+
+.content button:hover {
+    background-color: #165764; /* Dark blue for hover effect */
+}
 
 #message {
     margin-top: 15px;
