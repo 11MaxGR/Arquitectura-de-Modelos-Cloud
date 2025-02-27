@@ -8,7 +8,7 @@ body {
 
 /* Estilo del header */
 header {
-    background-color: #0078D7; /* Azul */
+    background-color: #1F7A8C; /* Azul */
     color: white;
     display: flex;
     justify-content: space-between;
@@ -36,7 +36,7 @@ header nav a {
 }
 
 header nav a:hover {
-    background-color: #005A9E;
+    background-color: #165764; /* Teal for hover effect */
 }
 
 /* SECCIÓN DE INTRODUCCIÓN */
