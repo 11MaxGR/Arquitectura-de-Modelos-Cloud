@@ -113,23 +113,35 @@ main p {
 .login-container button:hover {
     background-color: #005A9E;
 }
-.content button {
-    background-color: #1f7a8c; /* Teal for buttons */
-    color: #ffffff; /* White text */
-    padding: 10px 15px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 1rem;
-    transition: background-color 0.3s ease;
+select {
     display: block;
     margin: 10px auto;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 220px;
+    border: 2px solid #1f7a8c;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: #353535;
+    outline: none;
+    transition: all 0.3s ease;
 }
 
-.content button:hover {
-    background-color: #165764; /* Dark blue for hover effect */
+select:hover {
+    background-color: #e1e5f2;
 }
 
+select:focus {
+    border-color: #165764;
+    box-shadow: 0 0 5px rgba(31, 122, 140, 0.5);
+}
+
+option {
+    padding: 10px;
+    background-color: #ffffff;
+    color: #353535;
+}
 #message {
     margin-top: 15px;
     color: green;
