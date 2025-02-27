@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="changarro_style.css">
     <title>Changarro FIF - Changarro</title>
+    <style>
+        .select-container {
+            display: inline-block; /* Permite ajustar el ancho al contenido */
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -15,45 +20,50 @@
         </nav>
     </header>
 
-    <main style="display: flex; justify-content: space-around; align-items: center; height: 60vh;">
-        <div class="content" style="text-align: center; width: 45%; max-width: 500px;">
+    <main style="display: flex; justify-content: flex-start; align-items: flex-start; height: auto; flex-wrap: wrap;">
+        <div class="content" style="text-align: left; width: 30%; min-width: 250px; margin: 10px;">
             <img src="Comida.jpg" style="width:200px; height:auto; display:block; margin:10px 0;">
             <p>Te ofrecemos variedad de alimentos como muffins, pastes, chilaquiles, etc.</p>
-
-            <select style="width: 100%; padding: 10px; font-size: 16px; cursor:pointer; margin-top: 20px;">
-                <option value="">Selecciona un producto</option>
-                <option value="muffins">Muffins</option>
-                <option value="papas">Papas</option>
-                <option value="galletas">Galletas</option>
-                <option value="tortas">Tortas</option>
-                <option value="ensaladas">Ensaladas</option>
-            </select>
+            <div class="select-container">
+                <select style="padding: 10px; font-size: 16px; cursor:pointer; margin-top: 20px;">
+                    <option value="">Selecciona un producto</option>
+                    <option value="muffins">Muffins</option>
+                    <option value="papas">Papas</option>
+                    <option value="galletas">Galletas</option>
+                    <option value="tortas">Tortas</option>
+                    <option value="ensaladas">Ensaladas</option>
+                </select>
+            </div>
         </div>
 
-        <div class="content" style="text-align: center; width: 45%; max-width: 500px;">
+        <div class="content" style="text-align: left; width: 30%; min-width: 250px; margin: 10px;">
             <img src="articulos.jpg" style="width:200px; height:auto; display:block; margin:10px 0;">
             <p>Te ofrecemos variedad de Productos, desde articulos de higiene, refacciones, componentes electricos, caballos, telefonos.</p>
-            <select style="width: 100%; padding: 10px; font-size: 16px; cursor:pointer; margin-top: 20px;">
-                <option value="">Selecciona un producto</option>
-                <option value="muffins">Telefonos</option>
-                <option value="papas">Caballo</option>
-                <option value="galletas">Bicicleta</option>
-                <option value="tortas">Componentes electricos</option>
-                <option value="ensaladas">Cables</option>
-            </select>
+            <div class="select-container">
+                <select style="padding: 10px; font-size: 16px; cursor:pointer; margin-top: 20px;">
+                    <option value="">Selecciona un producto</option>
+                    <option value="muffins">Telefonos</option>
+                    <option value="papas">Caballo</option>
+                    <option value="galletas">Bicicleta</option>
+                    <option value="tortas">Componentes electricos</option>
+                    <option value="ensaladas">Cables</option>
+                </select>
+            </div>
         </div>
 
-        <div class="content" style="text-align: center; width: 45%; max-width: 500px;">
+        <div class="content" style="text-align: left; width: 30%; min-width: 250px; margin: 10px;">
             <img src="BEBIDAS.png" style="width:200px; height:auto; display:block; margin:10px 0;">
             <p>Te Gran variedad de bebidas como aguas, refrescos, entre otros productos líquidos.</p>
-            <select style="width: 100%; padding: 10px; font-size: 16px; cursor:pointer; margin-top: 20px;">
-                <option value="">Selecciona un producto</option>
-                <option value="muffins">Agua</option>
-                <option value="papas">Coca-cola</option>
-                <option value="galletas">FuzeTea Durazno</option>
-                <option value="tortas">Café</option>
-                <option value="ensaladas">Jarritosw</option>
-            </select>
+            <div class="select-container">
+                <select style="padding: 10px; font-size: 16px; cursor:pointer; margin-top: 20px;">
+                    <option value="">Selecciona un producto</option>
+                    <option value="muffins">Agua</option>
+                    <option value="papas">Coca-cola</option>
+                    <option value="galletas">FuzeTea Durazno</option>
+                    <option value="tortas">Café</option>
+                    <option value="ensaladas">Jarritos</option>
+                </select>
+            </div>
         </div>
     </main>
 </body>
